@@ -6,13 +6,22 @@ body {
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-image: url('fotos/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 header {
-    background: linear-gradient(darkorange, yellow);
-    padding: 25px;
     box-shadow: darkgray 5px 1px 1px;
     border: 5px double darkorange;
+    margin-bottom: 20px;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: darkgray 2px 1px 1px;
+    background: linear-gradient(darkblue, dodgerblue);
+    padding: 30px;
 
 }
 
@@ -35,33 +44,37 @@ p {
     font-size: 110%;
     color: dodgerblue;
     font-style: italic;
-    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 30px;
 }
 
 .campeones {
     background-color: #f5f5dc;
-    box-shadow: darkgray 5px 1px 1px;
+    box-shadow: dimgray 5px 1px 1px;
     border: 3px solid black;
-    margin: 30px;
-    padding: 25px;
+    margin: 20px;
+    padding: 20px;
 
 }
 
 .campeones img {
-    border: 2px solid black;
+    border: 3px solid blue;
     box-shadow: dimgray 5px 1px 1px;
     max-width: 120px;
     height: auto;
+    border-radius: 15px;
 }
 
-a {
-    color: darkgreen;
-    text-decoration: none;
+.campeones a h2{
+    background-color: #fef24e;
+    color: green;
     transition: color 0.5s;
 }
 
-a:hover {
-    color: darkblue;
+.campeones a h2:hover {
+    background-color: orange;
+    color: black;
 }
 
 h1, h2 {
@@ -72,52 +85,3 @@ h1, h2 {
     text-align: center;
 }
 
-body {
-    background-image: url('fotos/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-}
-
-header {
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: darkgray 2px 1px 1px;
-    background: linear-gradient(darkblue, dodgerblue);
-    padding: 30px;
-}
-
-p {
-    text-align: justify;
-    line-height: 1.8;
-    margin-bottom: 30px;
-
-}
-
-.campeones {
-    padding: 20px;
-    box-shadow: dimgray 5px 1px 1px;
-    margin: 20px;
-
-}
-
-.campeones img {
-    border: 3px solid blue;
-    border-radius: 15px;
-
-}
-
-a h2{
-    background-color: #fef24e;
-    color: green;
-}
-
-a h2:hover {
-    background-color: orange;
-    color: black;
-}
-
-header {
-    margin-bottom: 20px;
-    font-size: 250%
-}
