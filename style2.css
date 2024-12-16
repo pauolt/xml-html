@@ -1,0 +1,122 @@
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #add8e6;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background: linear-gradient(darkorange, yellow);
+    padding: 25px;
+    box-shadow: darkgray 5px 1px 1px;
+    border: 5px double darkorange;
+
+}
+
+h1 {
+    font-size: 300%;
+    letter-spacing: 5px;
+    text-shadow: black 2px 1px 1px;
+    border: none;
+}
+
+div h2 {
+    color: darkgreen;
+    background-color: lightyellow;
+    border-top: 2px solid black;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+p {
+    font-size: 110%;
+    color: dodgerblue;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.campeones {
+    background-color: #f5f5dc;
+    box-shadow: darkgray 5px 1px 1px;
+    border: 3px solid black;
+    margin: 30px;
+    padding: 25px;
+
+}
+
+.campeones img {
+    border: 2px solid black;
+    box-shadow: dimgray 5px 1px 1px;
+    max-width: 120px;
+    height: auto;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: dodgerblue 2px 1px 1px;
+    color: black;
+    text-align: center;
+}
+body {
+    background-image: url('fotos/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: darkgray 2px 1px 1px;
+    background: linear-gradient(darkblue, dodgerblue);
+    padding: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 30px;
+
+}
+
+.campeones {
+    padding: 20px;
+    box-shadow: dimgray 5px 1px 1px;
+    margin: 20px;
+
+}
+
+.campeones img {
+    border: 3px solid blue;
+    border-radius: 15px;
+
+}
+
+a {
+    background-color: lightyellow;
+    color: green;
+}
+
+a:hover {
+    background-color: orange;
+    color: black;
+}
+
+header {
+    margin-bottom: 20px;
+    font-size: 250%
+}
