@@ -71,6 +71,7 @@ h1, h2 {
     color: black;
     text-align: center;
 }
+
 body {
     background-image: url('fotos/background.jpg');
     background-size: cover;
@@ -106,12 +107,12 @@ p {
 
 }
 
-a {
-    background-color: lightyellow;
+a h2{
+    background-color: #fef24e;
     color: green;
 }
 
-a:hover {
+a h2:hover {
     background-color: orange;
     color: black;
 }

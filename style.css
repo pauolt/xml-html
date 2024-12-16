@@ -41,7 +41,7 @@ p {
     text-align: left;
 }
 
-img {
+.campeones img {
     width: 150px;
     aspect-ratio: auto;
     border-radius: 8px;
