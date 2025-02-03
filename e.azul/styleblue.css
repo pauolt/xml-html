@@ -1,8 +1,8 @@
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: #add8e6;
+    background-color: #1a1a2e;
     text-align: justify;
-    margin: 20px 30px;
+    margin: 20px;
     color: white;
 }
 
@@ -14,25 +14,17 @@ header {
     text-align: center;
     text-transform: uppercase;
     text-shadow: darkgray 2px 1px 1px;
-    background: linear-gradient(darkblue, dodgerblue);
+    background: linear-gradient(#0241ac, #ffffff);
     padding: 30px;
-
+    animation: anim3 3s ease-in-out infinite alternate;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    animation: anim2 2s ease-in-out infinite alternate;
-}
-
-.campeones {
-    background-color: #0f5698;
+div {
+    background-color: #004a8c;
     box-shadow: dimgray 5px 1px 1px;
     border: 3px solid black;
-    margin: 10px;
-    padding: 15px;
+    margin: 15px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,8 +32,11 @@ header {
     animation: anim1 3s infinite alternate;
 }
 
+div p {
+    background-color: rgba(170, 170, 170, 0.34);
+}
 
-.campeones img {
+div img {
     border: 3px solid blue;
     box-shadow: dimgray 5px 1px 1px;
     max-width: 120px;
@@ -50,24 +45,26 @@ header {
     animation: anim3 3s ease-in-out infinite alternate;
 }
 
-.campeones a h2 {
-    background-color: #ffffff;
-    color: #0563d1;
-    transition: color 0.5s;
-}
-
-.campeones a h2:hover {
-    background-color: #038a00;
-    color: darkblue;
-}
-
-h1, h2 {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    text-shadow: dodgerblue 2px 1px 1px;
-    color: black;
+footer {
     text-align: center;
+    margin-top: 20px;
+    padding: 10px;
 }
+
+footer a {
+    font-size: 120%;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: #037316;
+    color: black;
+}
+
 
 @keyframes anim1 {
     from {
@@ -75,15 +72,6 @@ h1, h2 {
     }
     to {
         transform: scale(1.05);
-    }
-}
-
-@keyframes anim2 {
-    from {
-        transform: translateY(10px); opacity: 0.9;
-    }
-    to {
-        transform: translateY(0); opacity: 1;
     }
 }
 
@@ -95,3 +83,4 @@ h1, h2 {
         opacity: 1;
     }
 }
+
