@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT grieta_del_invocador (campeones)>
+        <!ELEMENT modo (#PCDATA)>
+
+        <!ELEMENT campeones (campeon+)>
+        <!ELEMENT campeon (nombre, imagen, descripcion, habilidades)>
+        <!ELEMENT nombre (#PCDATA)>
+
+        <!ELEMENT imagen EMPTY>
+        <!ATTLIST imagen url CDATA #REQUIRED>
+        <!ELEMENT habilidades (habilidad+)>
+        <!ATTLIST campeon recurso (mana | energia | vida | nada) #REQUIRED>
+        <!ATTLIST campeon clase (tanque | mago | asesino | luchador | tirador | soporte) #REQUIRED>
+        <!ELEMENT habilidad (tipo?, coste?, descripcion)>
+        <!ELEMENT coste (#PCDATA)>
+        <!ELEMENT tipo (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+
+
+
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grieta_del_invocador SYSTEM "/home/pauolt2/WebstormProjects/xml-html/xml-dtd/Projecte-T1-P1-PAO.dtd">
+<grieta_del_invocador>
+    <campeones>
+        <campeon recurso="mana" clase="mago">
+            <nombre>Leblanc</nombre>
+            <imagen url="https://leagueoflegends.fandom.com/es/wiki/LeBlanc"/>
+            <descripcion>LeBlanc se desliza entre las sombras, dejando ilusiones tras de sí y confundiendo a sus enemigos.</descripcion>
+            <habilidades>
+                <habilidad>
+                    <tipo>Pasiva</tipo>
+                    <descripcion>Cuando LeBlanc cae por debajo de un 40% de vida, crea una copia ilusoria y se vuelve invisible durante 1 segundo.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>70</coste>
+                    <descripcion>Proyecta un sello que inflige 105(+40% Poder de Habilidad) de daño mágico y marca al objetivo durante 3.5 seg.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>90</coste>
+                    <descripcion>LeBlanc se desplaza hacia una ubicación, infligiendo 155(+60% Poder de Habilidad) de daño mágico a los enemigos cercanos.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>50</coste>
+                    <descripcion>Lanza una cadena que inflige 80(+30% Poder de Habilidad) de daño mágico y otorga visión del enemigo alcanzado.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <tipo>Ultimate</tipo>
+                    <coste>0</coste>
+                    <descripcion>Copia y lanza su hechizo más reciente.</descripcion>
+                </habilidad>
+            </habilidades>
+        </campeon>
+
+        <campeon recurso="mana" clase="luchador">
+            <nombre>Jayce</nombre>
+            <imagen url="https://leagueoflegends.fandom.com/es/wiki/Jayce"/>
+            <descripcion>Jayce, el Defensor del Mañana, es un inventor y guerrero que porta un martillo hextech capaz de transformarse en cañón.</descripcion>
+            <habilidades>
+                <habilidad>
+                    <tipo>Pasiva</tipo>
+                    <descripcion>Al cambiar de forma, Jayce obtiene velocidad de movimiento y poder de ataque por un breve tiempo.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>55</coste>
+                    <descripcion>Lanza un proyectil de energía que inflige daño y aumenta su velocidad al pasar por un portal de aceleración.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>40</coste>
+                    <descripcion>Golpea con su martillo, ralentizando a los enemigos cercanos.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>60</coste>
+                    <descripcion>Cambia entre forma de martillo y cañón, modificando sus habilidades.</descripcion>
+                </habilidad>
+            </habilidades>
+        </campeon>
+
+        <campeon recurso="mana" clase="tanque">
+            <nombre>Sejuani</nombre>
+            <imagen url="https://leagueoflegends.fandom.com/es/wiki/Sejuani"/>
+            <descripcion>Sejuani, líder de la Garra Invernal, es una temible guerrera de Freljord que carga a la batalla montada en su jabalí.</descripcion>
+            <habilidades>
+                <habilidad>
+                    <tipo>Pasiva</tipo>
+                    <descripcion>Sejuani obtiene resistencia adicional y aplica efectos de congelación con sus ataques.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>80</coste>
+                    <descripcion>Arremete con su jabalí, aturdiendo al primer enemigo alcanzado.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>60</coste>
+                    <descripcion>Gira su arma, infligiendo daño en área y aplicando congelación.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <tipo>Ultimate</tipo>
+                    <coste>100</coste>
+                    <descripcion>Lanza su flail, congelando y aturdiendo a los enemigos en un área amplia.</descripcion>
+                </habilidad>
+            </habilidades>
+        </campeon>
+
+        <campeon recurso="mana" clase="tirador">
+            <nombre>Aphelios</nombre>
+            <imagen url="https://leagueoflegends.fandom.com/es/wiki/Aphelios"/>
+            <descripcion>Aphelios emerge de la sombra de la luz de la luna con las armas desenvainadas...</descripcion>
+            <habilidades>
+                <habilidad>
+                    <tipo>Pasiva</tipo>
+                    <descripcion>Aphelios cuenta con cinco armas donde solo puede utilizar dos a la vez.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>60</coste>
+                    <descripcion>Dispara proyectiles adicionales de sus armas.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>0</coste>
+                    <descripcion>Cambia de arma.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>0</coste>
+                    <descripcion>Cambia de posición para mejorar sus ataques.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <tipo>Ultimate</tipo>
+                    <coste>100</coste>
+                    <descripcion>Realiza un ataque en área con su arma principal.</descripcion>
+                </habilidad>
+            </habilidades>
+        </campeon>
+
+        <campeon recurso="mana" clase="soporte">
+            <nombre>Thresh</nombre>
+            <imagen url="https://leagueoflegends.fandom.com/es/wiki/Thresh"/>
+            <descripcion>Thresh es un espíritu torturado que encadena las almas de sus enemigos, arrastrándolos a la oscuridad.</descripcion>
+            <habilidades>
+                <habilidad>
+                    <tipo>Pasiva</tipo>
+                    <descripcion>Recoge almas de enemigos caídos para aumentar su armadura y poder de habilidad.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>70</coste>
+                    <descripcion>Lanza su cadena a un enemigo, aturdiéndolo y atrayéndolo hacia él.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <coste>50</coste>
+                    <descripcion>Crea una linterna que puede recoger un aliado para moverse hasta él.</descripcion>
+                </habilidad>
+                <habilidad>
+                    <tipo>Ultimate</tipo>
+                    <coste>100</coste>
+                    <descripcion>Invoca un muro de sombras que ralentiza y daña a los enemigos que lo atraviesan.</descripcion>
+                </habilidad>
+            </habilidades>
+        </campeon>
+    </campeones>
+</grieta_del_invocador>
