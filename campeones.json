@@ -9,21 +9,21 @@
       "habilidades": [
         {
           "tipo": "Pasiva",
-          "descripcion": "Cuando LeBlanc cae por debajo de un 40% de vida, crea una copia ilusoria y se vuelve invisible durante 1 segundo."
+          "descripcion": "Periódicamente, cuando LeBlanc sufre daños hasta el 40 % de su salud máxima, crea un clon de ella misma, después de lo cual ambos se vuelven instantáneamente invisibles durante 1 segundo."
         },
         {
           "coste": 70,
-          "descripcion": "Proyecta un sello que inflige 105(+40% Poder de Habilidad) de daño mágico y marca al objetivo durante 3.5 seg.",
+          "descripcion": "Proyecta un sello que inflige daño mágico y marca al objetivo durante 3.5 seg.",
           "imagen": "../fotos/habilidades/leblanc_q.webp"
         },
         {
           "coste": 90,
-          "descripcion": "LeBlanc se desplaza hacia una ubicación, infligiendo 155(+60% Poder de Habilidad) de daño mágico a los enemigos cercanos.",
+          "descripcion": "LeBlanc se desplaza hacia una ubicación, infligiendo daño mágico a los enemigos cercanos.",
           "imagen": "../fotos/habilidades/leblanc_w.webp"
         },
         {
           "coste": 50,
-          "descripcion": "Lanza una cadena que inflige 80(+30% Poder de Habilidad) de daño mágico y otorga visión del enemigo alcanzado.",
+          "descripcion": "Lanza una cadena que inflige daño mágico y otorga visión del enemigo alcanzado.",
           "imagen": "../fotos/habilidades/leblanc_e.webp"
         },
         {
@@ -79,23 +79,29 @@
       "habilidades": [
         {
           "tipo": "Pasiva",
-          "descripcion": "Sejuani obtiene resistencia adicional y aplica efectos de congelación con sus ataques.",
+          "descripcion": "Sejuani obtiene resistencia adicional y aplica efectos de congelación con sus ataques."
 
         },
         {
-          "coste": 80,
-          "descripcion": "Arremete con su jabalí, aturdiendo al primer enemigo alcanzado.",
+          "coste": 65,
+          "descripcion": "Sejuani carga hacia adelante, infligiendo daño a los enemigos y empujándolos.",
           "imagen": "../fotos/habilidades/sejuani_q.webp"
         },
         {
-          "coste": 60,
-          "descripcion": "Gira su arma, infligiendo daño en área y aplicando congelación.",
+          "coste": 30,
+          "descripcion": "Lanza un ataque de barrido con su arma, infligiendo daño en área.",
           "imagen": "../fotos/habilidades/sejuani_w.webp"
+        },
+        {
+          "coste": 30,
+          "descripcion": "Congela y aturde al enemigo.",
+          "imagen": "../fotos/habilidades/sejuani_e.webp"
         },
         {
           "coste": 100,
           "tipo": "Ultimate",
-          "descripcion": "Lanza su flail, congelando y aturdiendo a los enemigos en un área amplia."
+          "descripcion": "Lanza una bola de hielo que aturde y daña a los enemigos.",
+          "imagen": "../fotos/habilidades/sejuani_r.webp"
         }
       ]
     },
@@ -112,20 +118,24 @@
         },
         {
           "coste": 60,
-          "descripcion": "Dispara proyectiles adicionales de sus armas."
+          "descripcion": "Dispara proyectiles adicionales de sus armas.",
+          "imagen": "../fotos/habilidades/aphelios_q.webp"
         },
         {
           "coste": 0,
-          "descripcion": "Cambia de arma."
+          "descripcion": "Cambia de arma.",
+          "imagen": "../fotos/habilidades/aphelios_w.webp"
         },
         {
           "coste": 0,
-          "descripcion": "Cambia de posición para mejorar sus ataques."
+          "descripcion": "Cambia de posición para mejorar sus ataques.",
+          "imagen": "../fotos/habilidades/aphelios_e.webp"
         },
         {
           "coste": 100,
           "tipo": "Ultimate",
-          "descripcion": "Realiza un ataque en área con su arma principal."
+          "descripcion": "Realiza un ataque en área con su arma principal.",
+          "imagen": "../fotos/habilidades/aphelios_r.webp"
         }
       ]
     },
@@ -142,16 +152,24 @@
         },
         {
           "coste": 70,
-          "descripcion": "Lanza su cadena a un enemigo, aturdiéndolo y atrayéndolo hacia él."
+          "descripcion": "Lanza una cadena que aturde y atrae a los enemigos.",
+          "imagen": "../fotos/habilidades/tresh_q.webp"
         },
         {
           "coste": 50,
-          "descripcion": "Crea una linterna que puede recoger un aliado para moverse hasta él."
+          "descripcion": "Crea un escudo para un aliado y lo acerca a Thresh.",
+          "imagen": "../fotos/habilidades/tresh_w.webp"
+        },
+        {
+          "coste": 50,
+          "descripcion": "Barre con su cadena para dañar y desplazar a los enemigos.",
+          "imagen": "../fotos/habilidades/tresh_e.webp"
         },
         {
           "coste": 100,
           "tipo": "Ultimate",
-          "descripcion": "Invoca un muro de sombras que ralentiza y daña a los enemigos que lo atraviesan."
+          "descripcion": "Crea una barrera que ralentiza y daña a los enemigos que la atraviesan.",
+          "imagen": "../fotos/habilidades/tresh_r.webp"
         }
       ]
     }
