@@ -1,8 +1,8 @@
-{
+  {
   "campeones": [
     {
       "nombre": "Leblanc",
-      "clase": "tirador",
+      "clase": "Mago",
       "recurso": "mana",
       "imagen": "https://leagueoflegends.fandom.com/es/wiki/LeBlanc",
       "descripcion": "LeBlanc se desliza entre las sombras, dejando ilusiones tras de sí y confundiendo a sus enemigos.",
